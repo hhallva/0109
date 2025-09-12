@@ -20,14 +20,14 @@ namespace Tests
                 return 0.0;
             }
 
-            double result = 1.0;
+            double result = 1;
             int absN = Math.Abs(n);
 
             for (int i = 0; i < absN; i++)
                 result *= a;
 
             if (n < 0)
-                result = 1.0 / result;
+                result = 1 / result;
 
             return Math.Round(result, 3);
         }

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\mymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\mymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\passwordtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\passwordtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyMethods.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\MyMethods.cs",
+              "RelativeDocumentMoniker": "Tests\\MyMethods.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\MyMethods.cs",
+              "RelativeToolTip": "Tests\\MyMethods.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T08:44:52.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordTests.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PasswordTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PasswordTests.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PasswordTests.cs",
+              "RelativeToolTip": "Tests\\PasswordTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T08:44:51.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PowerTests.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PowerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PowerTests.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PowerTests.cs",
+              "RelativeToolTip": "Tests\\PowerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T08:44:51.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

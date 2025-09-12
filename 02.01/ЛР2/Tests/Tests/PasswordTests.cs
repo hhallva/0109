@@ -8,10 +8,10 @@ namespace Tests
 {
     public class PasswordTests
     {
-        [Fact]
-        public void IsStrongPassword_ValidPassword_ReturnsTrue()
+        [Theory]
+        [InlineData("Passwo1!")]
+        public void IsStrongPassword_True(string password)
         {
-            string password = "Passwo1!";
 
             bool result = MyMethods.IsValidPassword(password);
 
@@ -19,7 +19,7 @@ namespace Tests
         }
 
         [Fact]
-        public void IsStrongPassword_NoLowercaseLetter_ReturnsFalse()
+        public void IsStrongPassword_False()
         {
             string password = "PASS123!";
 
