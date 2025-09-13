@@ -1,8 +1,8 @@
-﻿<Application x:Class="AuthTest.App"
+﻿<Application x:Class="RegistrationTests.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:AuthTest"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:RegistrationTests"
+             StartupUri="Windows/RegistrationWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

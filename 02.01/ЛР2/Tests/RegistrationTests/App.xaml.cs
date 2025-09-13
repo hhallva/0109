@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace AuthTest
+namespace RegistrationTests
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -1,37 +1,24 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Tests;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Windows;
+using static MyLibrary.MyMethods;
 
-namespace AuthTest
+namespace RegistrationTests.Windows
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class RegistrationWindow : Window
     {
-        public MainWindow()
+        public RegistrationWindow()
         {
             InitializeComponent();
         }
 
-        private void AuthButton_Click(object sender, RoutedEventArgs e)
+        private void RegistrationButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ValidateFields())
+            if (!IsValidFields())
                 return;
 
-            MessageBox.Show("Успешная регистрация");
+            MessageBox.Show("Вы успешно зарегистрированы!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        private bool ValidateFields()
+        private bool IsValidFields()
         {
             var errors = new List<string>();
 
@@ -40,7 +27,7 @@ namespace AuthTest
 
             if (string.IsNullOrWhiteSpace(PasswordBox.Password))
                 errors.Add("Введите пароль");
-            else if(!MyMethods.IsValidPassword(PasswordBox.Password))
+            else if (!IsValidPassword(PasswordBox.Password))
                 errors.Add("Введите корректный пароль");
 
             if (string.IsNullOrWhiteSpace(ConfirmPasswordBox.Password))
@@ -60,16 +47,11 @@ namespace AuthTest
 
             if (errors.Count > 0)
             {
-                MessageBox.Show(string.Join(Environment.NewLine, errors),
-                               "Ошибки заполнения",
-                               MessageBoxButton.OK,
-                               MessageBoxImage.Warning);
+                MessageBox.Show(string.Join(Environment.NewLine, errors), "Ошибки регистрации", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return false;
             }
-
             return true;
         }
-
 
         private bool IsValidEmail(string email)
         {

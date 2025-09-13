@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\",
+  "WorkspaceRootPath": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\passwordtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\passwordtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1350B537-E694-4D37-9B61-366D56DCEDA4}|MyLibrary\\MyLibrary.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\mylibrary\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350B537-E694-4D37-9B61-366D56DCEDA4}|MyLibrary\\MyLibrary.csproj|solutionrelative:mylibrary\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\apitest\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|solutionrelative:apitest\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|c:\\temp\\ispp21\\02.01\\\u043B\u04402\\tests\\tests\\mymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F605674C-C4AE-4EC2-AB8F-3BE74EA68862}|Tests\\Tests.csproj|solutionrelative:tests\\mymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\apitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|solutionrelative:apitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\apitest\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5315D25F-A2FB-4A42-8701-FAE1A67E5B43}|ApiTest\\ApiTest.csproj|solutionrelative:apitest\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A072DA-3399-4942-A984-A91417BB26DE}|RegistrationTests\\RegistrationTests.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\registrationtests\\windows\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A072DA-3399-4942-A984-A91417BB26DE}|RegistrationTests\\RegistrationTests.csproj|solutionrelative:registrationtests\\windows\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A072DA-3399-4942-A984-A91417BB26DE}|RegistrationTests\\RegistrationTests.csproj|d:\\temp\\projects\\0109\\02.01\\\u043B\u04402\\tests\\registrationtests\\windows\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90A072DA-3399-4942-A984-A91417BB26DE}|RegistrationTests\\RegistrationTests.csproj|solutionrelative:registrationtests\\windows\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,46 +33,112 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 300,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 313,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyMethods.cs",
-              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\MyMethods.cs",
-              "RelativeDocumentMoniker": "Tests\\MyMethods.cs",
-              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\MyMethods.cs",
-              "RelativeToolTip": "Tests\\MyMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T08:44:52.253Z",
+              "DocumentIndex": 3,
+              "Title": "tasks.json",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\tasks.json",
+              "RelativeDocumentMoniker": "ApiTest\\tasks.json",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\tasks.json",
+              "RelativeToolTip": "ApiTest\\tasks.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T14:08:13.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PasswordTests.cs",
-              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PasswordTests.cs",
-              "RelativeDocumentMoniker": "Tests\\PasswordTests.cs",
-              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PasswordTests.cs",
-              "RelativeToolTip": "Tests\\PasswordTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTest\\Program.cs",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\Program.cs",
+              "RelativeToolTip": "ApiTest\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T08:44:51.689Z",
+              "WhenOpened": "2025-09-13T13:44:03.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PowerTests.cs",
-              "DocumentMoniker": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PowerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\PowerTests.cs",
-              "ToolTip": "C:\\Temp\\ispp21\\02.01\\\u041B\u04202\\Tests\\Tests\\PowerTests.cs",
-              "RelativeToolTip": "Tests\\PowerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "ApiTest\\Controllers\\TasksController.cs",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\ApiTest\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "ApiTest\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T08:44:51.192Z",
+              "WhenOpened": "2025-09-13T13:39:40.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\MyLibrary\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "MyLibrary\\Services\\TaskService.cs",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\MyLibrary\\Services\\TaskService.cs",
+              "RelativeToolTip": "MyLibrary\\Services\\TaskService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:36:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\RegistrationTests\\Windows\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "RegistrationTests\\Windows\\RegistrationWindow.xaml",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\RegistrationTests\\Windows\\RegistrationWindow.xaml",
+              "RelativeToolTip": "RegistrationTests\\Windows\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-13T11:48:28.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\RegistrationTests\\Windows\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegistrationTests\\Windows\\RegistrationWindow.xaml.cs",
+              "ToolTip": "D:\\Temp\\Projects\\0109\\02.01\\\u041B\u04202\\Tests\\RegistrationTests\\Windows\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "RegistrationTests\\Windows\\RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:33:32.208Z",
               "EditorCaption": ""
             }
           ]

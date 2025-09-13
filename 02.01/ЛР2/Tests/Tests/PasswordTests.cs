@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using static MyLibrary.MyMethods;
 
 namespace Tests
 {
@@ -10,91 +6,90 @@ namespace Tests
     {
         [Theory]
         [InlineData("Passwo1!")]
-        public void IsStrongPassword_True(string password)
+        public void IsValidPassword_ValidPassword_ReturnsTrue(string password)
         {
-
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.True(result);
         }
 
         [Fact]
-        public void IsStrongPassword_False()
+        public void IsValidPassword_InvalidPassword_ReturnsFalse()
         {
             string password = "PASS123!";
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         [Fact]
-        public void IsStrongPassword_NoUppercaseLetter_ReturnsFalse()
+        public void IsValidPassword_NoUppercaseLetter_ReturnsFalse()
         {
             string password = "pass123!";
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         [Fact]
-        public void IsStrongPassword_TooShort_ReturnsFalse()
+        public void IsValidPassword_TooShort_ReturnsFalse()
         {
             string password = "Abc123!"; // 7 символов
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         [Fact]
-        public void IsStrongPassword_TooLong_ReturnsFalse()
+        public void IsValidPassword_TooLong_ReturnsFalse()
         {
             string password = "Abcdefghijklmnopqrs!uvwxyz12345"; // 31 символ
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         [Fact]
-        public void IsStrongPassword_NoDigit_ReturnsFalse()
+        public void IsValidPassword_NoDigit_ReturnsFalse()
         {
             string password = "Passwor!";
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         [Fact]
-        public void IsStrongPassword_NoSpecialChar_ReturnsFalse()
+        public void IsValidPassword_NoSpecialChar_ReturnsFalse()
         {
             string password = "Passwor1";
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         // 🔍 Дополнительный тест: пароль с недопустимым символом (например, кириллица или пробел)
         [Fact]
-        public void IsStrongPassword_ContainsInvalidChar_ReturnsFalse()
+        public void IsValidPassword_ContainsInvalidChar_ReturnsFalse()
         {
             string password = "Pass🧨123!";
 
-            bool result = MyMethods.IsValidPassword(password);
+            bool result = IsValidPassword(password);
 
             Assert.False(result);
         }
 
         // 🔍 Дополнительный тест: пустая строка
         [Fact]
-        public void IsStrongPassword_NullOrEmpty_ReturnsFalse()
+        public void IsValidPassword_NullOrEmpty_ReturnsFalse()
         {
-            Assert.False(MyMethods.IsValidPassword(null));
-            Assert.False(MyMethods.IsValidPassword(""));
+            Assert.False(IsValidPassword(null));
+            Assert.False(IsValidPassword(""));
         }
     }
 }

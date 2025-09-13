@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Tests
+namespace MyLibrary
 {
     public class MyMethods
     {

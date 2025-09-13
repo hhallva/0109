@@ -1,4 +1,4 @@
-﻿using static Tests.MyMethods;
+﻿using static MyLibrary.MyMethods;
 
 namespace Tests
 {
@@ -11,10 +11,10 @@ namespace Tests
         [InlineData(2, -2, 0.25)]
         [InlineData(0, 5, 0)]
         [InlineData(-2, 3, -8)]
-        [InlineData(0.3, 4, 0.008)]
-        public void Power_PositiveBase_PositiveExponent2_ReturnsCorrectResult(double a, int n, double expected)
+        [InlineData(0.3, 4, 0.0081)]
+        public void Power_CorrectValue_ReturnsCorrectResult(double baseValue, int exponent, double expected)
         {
-            double result = MyMethods.Power(a, n);
+            double result = Power(baseValue, exponent);
 
             Assert.Equal(expected, result, 0.001);
         }
@@ -24,10 +24,10 @@ namespace Tests
         [Fact]
         public void Power_ZeroBase_ZeroExponent_ThrowsArgumentException()
         {
-            double a = 0;
-            int n = 0;
+            double baseValue = 0;
+            int exponent = 0;
 
-            var exception = Assert.Throws<ArgumentException>(() => MyMethods.Power(a, n));
+            var exception = Assert.Throws<ArgumentException>(() => Power(baseValue, exponent));
             Assert.Contains("0^0", exception.Message);
         }
 
@@ -35,10 +35,10 @@ namespace Tests
         [Fact]
         public void Power_ZeroBase_NegativeExponent_ThrowsArgumentException()
         {
-            double a = 0;
-            int n = -5;
+            double baseValue = 0;
+            int exponent = -5;
 
-            var exception = Assert.Throws<ArgumentException>(() => MyMethods.Power(a, n));
+            var exception = Assert.Throws<ArgumentException>(() => Power(baseValue, exponent));
             Assert.Contains("0^(-n)", exception.Message);
         }
     }
