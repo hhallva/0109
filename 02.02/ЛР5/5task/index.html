@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Практика отладки JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Практика отладки JavaScript (раздел 5.5)</h1>
+
+  <h2>5.5.1 — Пошаговая отладка</h2>
+  <button id="debugBtn">Выполнить debugFunction()</button>
+  <p>Нажмите кнопку, чтобы вызвать функцию с <code>console.log</code>. Установите breakpoint на строке с логом в DevTools → Sources.</p>
+
+  <h2>5.5.2 — Условные точки останова</h2>
+  <button id="counterBtn">Нажми меня (счётчик)</button>
+  <p>Счётчик нажатий. Установите <strong>условную точку останова</strong> на строке <code>clickCount++</code> с условием: <code>clickCount >= 3</code>.</p>
+
+  <button id="loopBtn">Запустить цикл 1–100</button>
+  <p>Цикл выводит числа от 1 до 100. Установите условную точку останова на строке <code>console.log(i)</code> с условием: <code>i % 10 === 0</code>.</p>
+
+  <h2>5.5.3 — Разные типы сообщений в консоли</h2>
+  <button id="logTypesBtn">Вывести log / warn / error</button>
+  <p>После нажатия в консоли появятся сообщения разного типа.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
