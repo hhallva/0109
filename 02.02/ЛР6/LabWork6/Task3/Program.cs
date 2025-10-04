@@ -8,17 +8,16 @@ class Program
         try
         {
             using var reader = new StreamReader(filePath);
-            string line;
-            while ((line = reader.ReadLine()) != null)
             {
-                // Предполагаем, что числа разделены пробелами или новыми строками
-                var numbers = line.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
-                                  .Select(int.Parse)
-                                  .Where(n => n % 2 == 0);
-
-                foreach (var even in numbers)
+                string line;
+                while ((line = reader.ReadLine()) != null)
                 {
-                    Console.WriteLine($"Чётное число: {even}");
+                    var numbers = line.Split([' ', '\t', '\n', '\r'], StringSplitOptions.RemoveEmptyEntries)
+                                      .Select(int.Parse)
+                                      .Where(n => n % 2 == 0);
+
+                    foreach (var even in numbers)
+                        Console.WriteLine($"Чётное число: {even}");
                 }
             }
         }
@@ -29,7 +28,6 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine($"Ошибка при чтении файла: {ex.Message}");
-        }
-        // Файл автоматически закроется благодаря 'using'
+        } 
     }
 }

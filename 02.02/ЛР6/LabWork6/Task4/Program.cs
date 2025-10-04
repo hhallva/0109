@@ -4,14 +4,8 @@ class Program
 {
     static void Main()
     {
-        // Устанавливаем глобальный обработчик
         AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
 
-        // Для UI-приложений (WPF/WinForms) также нужно обрабатывать:
-        // Application.ThreadException (WinForms) или DispatcherUnhandledException (WPF)
-        // Но для консольного приложения достаточно UnhandledException
-
-        // Имитация ошибки
         throw new InvalidOperationException("Тестовая критическая ошибка!");
     }
 

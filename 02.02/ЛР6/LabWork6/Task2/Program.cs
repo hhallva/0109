@@ -12,7 +12,7 @@ internal class Program
             int age = int.Parse(input);
 
             if (age < 0)
-                throw new NegativeNumberException("Возраст не может быть отрицательным.");
+                throw new NegativeNumberException();
       
 
             Console.WriteLine($"Спасибо! Ваш возраст: {age} лет.");
@@ -27,7 +27,6 @@ internal class Program
         }
         catch (Exception ex)
         {
-        
             Console.WriteLine($"Неизвестная ошибка: {ex.Message}");
         }
 

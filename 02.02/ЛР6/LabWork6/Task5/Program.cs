@@ -1,20 +1,16 @@
+using Microsoft.AspNetCore.Diagnostics;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -22,37 +18,33 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
 app.MapControllers();
-
-
 app.UseRouting();
 app.MapControllers();
 
-// Глобальный обработчик необработанных исключений в middleware
-app.Use(async (context, next) =>
+app.UseExceptionHandler(errorApp =>
 {
-    try
+    errorApp.Run(async context =>
     {
-        await next();
-    }
-    catch (Exception ex)
-    {
-        await LogExceptionAsync(ex, "Необработанное исключение в HTTP-запросе");
         context.Response.StatusCode = 500;
-        await context.Response.WriteAsJsonAsync(new { error = "Internal server error", statusCode = 500 });
-    }
+        context.Response.ContentType = "application/json";
 
+        var exceptionHandler = context.Features.Get<IExceptionHandlerFeature>();
+        var logger = app.Services.GetRequiredService<ILogger<Program>>();
+
+        logger.LogError(
+            exceptionHandler?.Error,
+            "Глобальная ошибка в API: {Path}",
+            exceptionHandler?.Path
+        );
+
+        await context.Response.WriteAsJsonAsync(new
+        {
+            error = "Произошла внутренняя ошибка сервера.",
+            statusCode = 500
+        });
+    });
 });
-static async Task LogExceptionAsync(Exception ex, string message)
-{
-    var logLine = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] ERROR: {message}\n" +
-                  $"Тип: {ex.GetType().Name}\n" +
-                  $"Сообщение: {ex.Message}\n" +
-                  $"Стек: {ex.StackTrace}\n" +
-                  new string('-', 50) + "\n";
 
-    // Пишем в существующий (или создаём) файл app.log
-    await File.AppendAllTextAsync("app.log", logLine, Encoding.UTF8);
-}
+
 app.Run();

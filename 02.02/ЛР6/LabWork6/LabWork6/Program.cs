@@ -6,7 +6,7 @@ internal class Program
 
     private static void Main()
     {
-        Console.WriteLine("Калькулятор суммы двух чисел");
+        Console.WriteLine("Калькулятор деления двух чисел");
 
         try
         {
