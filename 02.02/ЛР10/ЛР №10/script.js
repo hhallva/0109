@@ -26,11 +26,11 @@ const dataContainer = document.querySelector('.data-container');
 loadDataButton.addEventListener('click', () => {
 	// Симуляция запроса
 	//fetch('https://jsonplaceholder.typicode.com/posts')
-	fetch('https://dummyjson.com/products')
+	fetch('https://api.escuelajs.co/api/v1/products')
 		.then(response => response.json())
 		.then(data => {
 			console.log("Данные получены:", data);
-			displayData(data.products); // Отображаем данные
+			displayData(data); // Отображаем данные
 		})
 		.catch(error => {
 			console.error("Ошибка при загрузке данных:", error);
@@ -60,21 +60,21 @@ function displayData(products) {
 setTimeout(() => {
 	const dynamicElement = document.createElement('div');
 	dynamicElement.classList.add('dynamic-element');
-	dynamicElement.textContent = 'Этот элемент добавлен динамически через 2 секунды';
+	dynamicElement.textContent = 'Этот элемент добавлен динамически через 10 секунды';
 	document.body.appendChild(dynamicElement);
-}, 2000);
+}, 10000);
 
  // Эмуляция асинхронной загрузки
 setTimeout(() => {
 	const dynamicElement2 = document.createElement('div');
 	dynamicElement2.className = 'dynamic-element';
-	dynamicElement2.textContent = 'Динамически загруженный элемент через 1 секунду';
+	dynamicElement2.textContent = 'Динамически загруженный элемент через 20 секунду';
 	document.body.appendChild(dynamicElement2);
 
 	// Изменение текста в параграфе
 	const message = document.getElementById('message');
 	message.textContent = 'Сообщение обновлено динамически';
-}, 1000);
+}, 20000);
 
 
 // 5: Логирование, ошибки и отладка
@@ -96,3 +96,27 @@ function simulateError() {
 
 // Симуляция ошибки через 3 секунды
 setTimeout(simulateError, 3000);  // Ошибка через 3 секунды
+
+const intervalId = setInterval(() => {
+ const dynamicElement = document.querySelector('.dynamic-element');
+ if (dynamicElement) {
+ console.log("Динамический элемент загружен:", dynamicElement);
+ clearInterval(intervalId); // Остановка проверки
+ } else {
+ console.log("Элемент еще не загружен");
+ }
+}, 2000);
+
+window.testState = { clickCount: 0, lastMessage: "Никаких сообщений" };
+
+const button3 = document.querySelector('.button-class');
+button.addEventListener('click', () => {
+ window.testState.clickCount++;
+ window.testState.lastMessage ='Кнопка нажата '+ window.testState.clickCount +' раз';
+ console.log(window.testState.lastMessage);
+});
+
+
+
+
+

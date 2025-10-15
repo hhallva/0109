@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "test": "mocha test/ui.test.js"
+  }
+}

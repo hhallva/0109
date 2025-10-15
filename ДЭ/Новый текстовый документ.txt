@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=mssql;Initial Catalog=ispp2109;User ID=ispp2109;Password=2109;Encrypt=True;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Contexts -Context AppDbContext -Tables DE_Manufacturer DE_Order DE_OrderList DE_PickupPoint DE_Product DE_Role DE_Supplier DE_User
