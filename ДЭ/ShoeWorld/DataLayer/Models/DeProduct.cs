@@ -30,4 +30,7 @@ public partial class DeProduct
     public virtual DeManufacturer Manufacturer { get; set; } = null!;
 
     public virtual DeSupplier Supplier { get; set; } = null!;
+    public string GenderDisplay => GenderType ? "Мужская обувь" : "Женская обувь";
+
+    public bool BigDiscount => (Discount > 15) ? true : false;
 }

@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|c:\\temp\\ispp21\\0109\\\u0434\u044D\\shoeworld\\app\\createproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|solutionrelative:app\\createproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|c:\\temp\\ispp21\\0109\\\u0434\u044D\\shoeworld\\app\\createproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|solutionrelative:app\\createproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D7C9B1-620B-4DE9-AF5F-E3F80FBCB8B8}|DataLayer\\DataLayer.csproj|c:\\temp\\ispp21\\0109\\\u0434\u044D\\shoeworld\\datalayer\\models\\deproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D7C9B1-620B-4DE9-AF5F-E3F80FBCB8B8}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\models\\deproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|c:\\temp\\ispp21\\0109\\\u0434\u044D\\shoeworld\\app\\shopwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|solutionrelative:app\\shopwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|c:\\temp\\ispp21\\0109\\\u0434\u044D\\shoeworld\\app\\shopwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F71F44C5-1223-4FB5-A250-854620C26BBA}|APP\\APP.csproj|solutionrelative:app\\shopwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\CreateProduct.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\CreateProduct.xaml.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\CreateProduct.xaml.cs",
+              "RelativeToolTip": "APP\\CreateProduct.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T08:51:50.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProduct.xaml",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\CreateProduct.xaml",
+              "RelativeDocumentMoniker": "APP\\CreateProduct.xaml",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\CreateProduct.xaml",
+              "RelativeToolTip": "APP\\CreateProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-17T08:50:43.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\ShopWindow.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\ShopWindow.xaml.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\ShopWindow.xaml.cs",
+              "RelativeToolTip": "APP\\ShopWindow.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAArwEYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:36:23.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopWindow.xaml",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\ShopWindow.xaml",
+              "RelativeDocumentMoniker": "APP\\ShopWindow.xaml",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\APP\\ShopWindow.xaml",
+              "RelativeToolTip": "APP\\ShopWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T10:36:22.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c89c0d6c-d72e-4507-8125-af4501a9ef48",
+        "Display": 1,
+        "X": -282,
+        "Y": 473,
+        "Width": 1347,
+        "Height": 842,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeProduct.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\DataLayer\\Models\\DeProduct.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Models\\DeProduct.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u0414\u042D\\ShoeWorld\\DataLayer\\Models\\DeProduct.cs",
+              "RelativeToolTip": "DataLayer\\Models\\DeProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T08:36:11.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
