@@ -29,17 +29,10 @@ namespace APP
 
                 FullNameText.Text = $"{user.Surname} {user.Name} {user.Patronymic}";
 
-                if (user.RoleId != 3)
-                {
-                    FilterStackPanel.IsEnabled = false;
-                }
+                FilterStackPanel.IsEnabled = true;
+
             }
 
-            if (user == null)
-            {
-                RoleLabel.Content = "Неавторизованный пользвователь";
-                FilterStackPanel.IsEnabled = false;
-            }
 
             products = context.DeProducts
                 .Include(p => p.Manufacturer)
@@ -47,9 +40,15 @@ namespace APP
                 .ToList();
 
             supplier = context.DeSuppliers.ToList();
+            supplier = context.DeSuppliers
+            .OrderBy(s => s.Name)
+            .ToList();
+
 
             ProductsListView.ItemsSource = products;
             FilterManufacturerButton.ItemsSource = supplier;
+
+          
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
@@ -93,6 +92,14 @@ namespace APP
 
 
             ProductsListView.ItemsSource = filteredProducts;
+        }
+        private void SortBySupplierButton_Click(object sender, RoutedEventArgs e)
+        {
+            var sortedProducts = products
+                .OrderBy(p => p.Supplier?.Name ?? string.Empty)
+                .ToList();
+
+            ProductsListView.ItemsSource = sortedProducts;
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
