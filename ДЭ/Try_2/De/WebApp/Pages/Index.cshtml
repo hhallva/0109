@@ -4,18 +4,112 @@
     ViewData["Title"] = "Главная";
 }
 
-<div class="justify-content-between">
+<div class="d-flex align-items-end gap-3">
     <h4>@Model.UserName</h4>
     <h5>@Model.UserRole</h5>
 
-    <form method="post"  asp-page-handler="Logout">
+    <form method="post" asp-page-handler="Logout">
         <div class="form-group mt-1">
             <input type="submit" value="Выйти" class="btn btn-outline-secondary" />
         </div>
     </form>
 </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Товары</h1>
+
+@if (Model.UserRole == "Администратор")
+{
+    <p>
+        <a asp-page="./Products/Create">Добавить</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Article)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Unit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Discount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Supplier)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Product)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Article)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Photo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Manufacturer.Manufacturer1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Supplier.Supplier1)
+                </td>
+                @if (Model.UserRole == "Администратор")
+                {
+                    <td>
+                        <a asp-page="./Products/Edit" asp-route-id="@item.Id">Редактировать</a>
+                        <a asp-page="./Products/Delete" asp-route-id="@item.Id">Удалить</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

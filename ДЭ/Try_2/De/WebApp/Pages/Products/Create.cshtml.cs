@@ -21,8 +21,8 @@ namespace WebApp.Pages.Products
 
         public IActionResult OnGet()
         {
-        ViewData["ManufacturerId"] = new SelectList(_context.Manufacturers, "Id", "Id");
-        ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Id");
+        ViewData["ManufacturerId"] = new SelectList(_context.Manufacturers, "Id", "Manufacturer1");
+        ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Supplier1");
             return Page();
         }
 
