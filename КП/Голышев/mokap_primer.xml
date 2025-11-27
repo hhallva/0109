@@ -1,0 +1,218 @@
+<mxfile host="app.diagrams.net" modified="2025-11-07T10:00:00.000Z" agent="Mozilla/5.0" etag="eco-mockup-v1" version="21.1.6">
+  <diagram name="Eco Store UI Mockup" id="eco-store-1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" parent="1"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1200" height="800" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar -->
+        <mxCell id="sidebar" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#3399FF;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="250" height="800" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar Header -->
+        <mxCell id="sidebar-header" value="Eco Store" style="text;html=1;fontSize=18;fontFamily=Arial;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="200" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar Menu Items -->
+        <mxCell id="menu-home" value="🏠 Home" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu-shop" value="🛍️ Shop" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu-categories" value="🌿 Categories" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu-sustainable" value="♻️ Sustainable Living" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu-blog" value="📰 Eco Blog" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu-about" value="🌱 About Us" style="text;html=1;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="200" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Top Bar -->
+        <mxCell id="topbar" value="" style="shape=rectangle;fillColor=#F5F5F5;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="0" width="950" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Tabs -->
+        <mxCell id="tab1" value="Tab" style="shape=roundedRectangle;fillColor=#FFFFFF;strokeColor=#DDDDDD;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="15" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="tab2" value="Tab" style="shape=roundedRectangle;fillColor=#FFFFFF;strokeColor=#DDDDDD;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="15" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="tab3" value="Tab" style="shape=roundedRectangle;fillColor=#FFFFFF;strokeColor=#DDDDDD;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="15" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Buttons (Cart & Profile) -->
+        <mxCell id="cart-btn" value="Корзина" style="shape=roundedRectangle;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;fontFamily=Arial;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="15" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="profile-btn" value="Профиль" style="shape=roundedRectangle;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;fontFamily=Arial;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="15" width="70" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Section 1: Featured Products -->
+        <mxCell id="section1-title" value="Featured Eco Products" style="text;html=1;fontSize=24;fontFamily=Arial;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="section1-subtitle" value="Sustainable essentials for everyday life" style="text;html=1;fontSize=14;fontFamily=Arial;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="300" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Product Cards Row 1 -->
+        <mxCell id="prod1" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="150" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod1-img" value="📸" style="text;html=1;fontSize=48;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="150" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod1-name" value="Reusable Bamboo Cup" style="text;html=1;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod1-desc" value="Eco-friendly, lightweight, durable" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod2" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="150" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod2-img" value="📸" style="text;html=1;fontSize=48;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="150" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod2-name" value="Organic Cotton Tote" style="text;html=1;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod2-desc" value="Stylish & plastic-free shopping" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod3" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="150" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod3-img" value="📸" style="text;html=1;fontSize=48;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="150" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod3-name" value="Beeswax Food Wraps" style="text;html=1;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod3-desc" value="Natural alternative to plastic wrap" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod4" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="150" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod4-img" value="📸" style="text;html=1;fontSize=48;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="150" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod4-name" value="Solar Charger" style="text;html=1;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="760" y="270" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod4-desc" value="Charge your devices sustainably" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="760" y="290" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Section 2: New Arrivals -->
+        <mxCell id="section2-title" value="New Arrivals" style="text;html=1;fontSize=24;fontFamily=Arial;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="section2-subtitle" value="Fresh from our eco partners" style="text;html=1;fontSize=14;fontFamily=Arial;fntStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="300" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Product Cards Row 2 -->
+        <mxCell id="prod5" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod5-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod5-name" value="Compostable Toothbrush" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="280" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod5-category" value="Personal Care" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod6" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod6-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod6-name" value="Recycled Glass Jar" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="390" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod6-category" value="Kitchenware" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod7" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod7-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod7-name" value="Hemp Yoga Mat" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod7-category" value="Fitness" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod8" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod8-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod8-name" value="Bamboo Cutlery Set" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod8-category" value="On-the-go" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="610" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod9" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod9-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod9-name" value="Reusable Beeswax Wrap" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="720" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod9-category" value="Kitchen" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="720" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="prod10" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#CCCCCC;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="400" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod10-img" value="📸" style="text;html=1;fontSize=36;textAlign=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="830" y="400" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod10-name" value="Eco-Friendly Laundry Detergent" style="text;html=1;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="830" y="530" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="prod10-category" value="Home" style="text;html=1;fontSize=8;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="830" y="550" width="100" height="10" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,61 @@
+﻿<Window x:Class="Test2.ProductCard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Карточка товара" Height="500" Width="700"
+        Background="White">
+
+    <Grid Margin="16">
+        <!-- Основное содержимое -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая часть — изображение -->
+        <Border Grid.Column="0" Background="#E5E7EB" CornerRadius="8">
+            <TextBlock Text="📷" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#9CA3AF"/>
+        </Border>
+
+        <!-- Правая часть — информация о товаре -->
+        <StackPanel Grid.Column="1">
+            <TextBlock x:Name="ProductNameBlock" Text="Название Товара" FontSize="16" FontWeight="SemiBold" Foreground="#1F2937"/>
+            <TextBlock x:Name="ProductPriceBlock" Text="цена" FontSize="28" FontWeight="Bold" Foreground="#111827"/>
+
+            <TextBlock Text="Количество" FontSize="14" Foreground="#6B7280" Margin="0,16,0,4"/>
+            <ComboBox FontSize="14" SelectedIndex="0" MinWidth="120">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="4"/>
+                <ComboBoxItem Content="5"/>
+            </ComboBox>
+
+            <Button Content="Добавить в корзину"
+                    Background="#1F2937" Foreground="White"
+                    FontSize="16" FontWeight="SemiBold"
+                    Padding="16,12" Cursor="Hand"
+                    Margin="0,16,0,0"/>
+
+            <Expander Header="Подробнее" FontSize="14" FontWeight="SemiBold" Foreground="#1F2937" Margin="0,16,0,0">
+                <TextBlock x:Name="ProductDescriptionBlock" Text="описание товара" FontSize="14" Foreground="#6B7280" TextWrapping="Wrap" Margin="12"/>
+            </Expander>
+        </StackPanel>
+
+        <!-- Кнопка "На главную" в правом верхнем углу -->
+        <Button Content="На главную"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                FontSize="12"
+                Padding="8,4"
+                Background="#E5E7EB"
+                Foreground="#3B82F6"
+                BorderBrush="#D1D5DB"
+                BorderThickness="1"
+                Cursor="Hand"
+                Click="GoHomeButton_Click"
+                Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

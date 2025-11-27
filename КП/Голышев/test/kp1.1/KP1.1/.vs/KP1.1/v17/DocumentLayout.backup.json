@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\kp1.1\\KP1.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64B97DA7-F01A-4C1A-86B2-E70CA7C9DC21}|KP1.1\\KP1.1.csproj|c:\\temp\\ispp21\\0109\\\u043A\u043F\\\u0433\u043E\u043B\u044B\u0448\u0435\u0432\\test\\kp1.1\\kp1.1\\kp1.1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B97DA7-F01A-4C1A-86B2-E70CA7C9DC21}|KP1.1\\KP1.1.csproj|solutionrelative:kp1.1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 351,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\kp1.1\\KP1.1\\KP1.1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KP1.1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\kp1.1\\KP1.1\\KP1.1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KP1.1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:49:02.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

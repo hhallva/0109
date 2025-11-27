@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|c:\\temp\\ispp21\\0109\\\u043A\u043F\\\u0433\u043E\u043B\u044B\u0448\u0435\u0432\\test\\test2\\test2\\test2\\productcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|solutionrelative:test2\\productcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|c:\\temp\\ispp21\\0109\\\u043A\u043F\\\u0433\u043E\u043B\u044B\u0448\u0435\u0432\\test\\test2\\test2\\test2\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|solutionrelative:test2\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|c:\\temp\\ispp21\\0109\\\u043A\u043F\\\u0433\u043E\u043B\u044B\u0448\u0435\u0432\\test\\test2\\test2\\test2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|solutionrelative:test2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|c:\\temp\\ispp21\\0109\\\u043A\u043F\\\u0433\u043E\u043B\u044B\u0448\u0435\u0432\\test\\test2\\test2\\test2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CAF964-7296-42D0-979C-350DFF2E55E6}|Test2\\Test2.csproj|solutionrelative:test2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 351,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCard.xaml",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\ProductCard.xaml",
+              "RelativeDocumentMoniker": "Test2\\ProductCard.xaml",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\ProductCard.xaml*",
+              "RelativeToolTip": "Test2\\ProductCard.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T07:49:00.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Test2\\MainWindow.xaml",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\MainWindow.xaml",
+              "RelativeToolTip": "Test2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T06:05:29.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductCard.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\ProductCard.xaml.cs",
+              "RelativeDocumentMoniker": "Test2\\ProductCard.xaml.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\ProductCard.xaml.cs*",
+              "RelativeToolTip": "Test2\\ProductCard.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:51:02.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Test2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Temp\\ispp21\\0109\\\u041A\u041F\\\u0413\u043E\u043B\u044B\u0448\u0435\u0432\\test\\Test2\\Test2\\Test2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Test2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:05:27.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
