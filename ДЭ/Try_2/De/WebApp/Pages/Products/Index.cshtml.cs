@@ -5,14 +5,9 @@ using WebApp.Context;
 
 namespace WebApp.Pages.Products
 {
-    public class IndexModel : PageModel
+    public class IndexModel(AppDbContext context) : PageModel
     {
-        private readonly AppDbContext _context;
-
-        public IndexModel(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         public IList<Product> Product { get; set; } = default!;
 

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
@@ -10,14 +6,9 @@ using WebApp.Models;
 
 namespace WebApp.Pages.Products
 {
-    public class DeleteModel : PageModel
+    public class DeleteModel(AppDbContext context) : PageModel
     {
-        private readonly WebApp.Context.AppDbContext _context;
-
-        public DeleteModel(WebApp.Context.AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         [BindProperty]
         public Product Product { get; set; } = default!;
@@ -25,9 +16,7 @@ namespace WebApp.Pages.Products
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var product = await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
 
@@ -44,9 +33,7 @@ namespace WebApp.Pages.Products
         public async Task<IActionResult> OnPostAsync(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var product = await _context.Products.FindAsync(id);
             if (product != null)

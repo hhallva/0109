@@ -1,8 +1,19 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Главная";
 }
+
+<div class="justify-content-between">
+    <h4>@Model.UserName</h4>
+    <h5>@Model.UserRole</h5>
+
+    <form method="post"  asp-page-handler="Logout">
+        <div class="form-group mt-1">
+            <input type="submit" value="Выйти" class="btn btn-outline-secondary" />
+        </div>
+    </form>
+</div>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>

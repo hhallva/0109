@@ -7,14 +7,9 @@ using WebApp.Models;
 
 namespace WebApp.Pages.Products
 {
-    public class EditModel : PageModel
+    public class EditModel(AppDbContext context) : PageModel
     {
-        private readonly AppDbContext _context;
-
-        public EditModel(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         [BindProperty]
         public Product Product { get; set; } = default!;
@@ -37,8 +32,6 @@ namespace WebApp.Pages.Products
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
             //if (!ModelState.IsValid)

@@ -5,16 +5,24 @@ namespace WebApp.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public string? UserRole { get; set; }
+        public string? UserName { get; set; }
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IActionResult OnGet()
         {
-            _logger = logger;
+            UserRole = HttpContext.Session.GetString("UserRole");
+
+            if(string.IsNullOrEmpty(UserRole))
+                return RedirectToPage("./Login");
+
+            UserName = HttpContext.Session.GetString("UserName");
+            return Page();
         }
 
-        public void OnGet()
+        public IActionResult OnPostLogout()
         {
-
+            HttpContext.Session.Clear();
+            return RedirectToPage("./Login");
         }
     }
 }
